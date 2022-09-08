@@ -10,6 +10,9 @@ export default defineNuxtPlugin(() => {
         ),
       ) / r.height
 
+    const midX = r.left + r.width / 2
+    const midY = r.top + r.height / 2
+
     const rect = {
       width: r.width,
       height: r.height,
@@ -17,21 +20,20 @@ export default defineNuxtPlugin(() => {
       left: r.left,
       right: r.right,
       bottom: r.bottom,
-      midX: r.left + r.width / 2,
-      midY: r.top + r.height / 2,
+      midX,
+      midY,
       isVisible: !!visible,
-    }
-
-    rect.normalised = {
-      width: rect.width / window.innerWidth,
-      height: rect.height / window.innerHeight,
-      top: rect.top / window.innerHeight,
-      left: rect.left / window.innerWidth,
-      right: rect.right / window.innerWidth,
-      bottom: rect.bottom / window.innerHeight,
-      midX: rect.midX / window.innerWidth,
-      midY: rect.midY / window.innerHeight,
-      visible,
+      normalised: {
+        width: r.width / window.innerWidth,
+        height: r.height / window.innerHeight,
+        top: r.top / window.innerHeight,
+        left: r.left / window.innerWidth,
+        right: r.right / window.innerWidth,
+        bottom: r.bottom / window.innerHeight,
+        midX: midX / window.innerWidth,
+        midY: midY / window.innerHeight,
+        visible,
+      },
     }
 
     return rect
