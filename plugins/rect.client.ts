@@ -1,5 +1,28 @@
+interface Rect {
+  width: number
+  height: number
+  top: number
+  left: number
+  right: number
+  bottom: number
+  midX: number
+  midY: number
+  isVisible: boolean
+  normalised: {
+    width: number
+    height: number
+    top: number
+    left: number
+    right: number
+    bottom: number
+    midX: number
+    midY: number
+    visible: number
+  }
+}
+
 export default defineNuxtPlugin(() => {
-  const rect = (el) => {
+  const rect = (el: HTMLElement): Rect => {
     const r = el.getBoundingClientRect()
     const visible =
       Math.min(
