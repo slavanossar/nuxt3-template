@@ -22,20 +22,9 @@ export default defineNuxtConfig({
     },
   },
   css: [],
-  modules: ['@nuxtjs/tailwindcss', '@pinia/nuxt', '@nuxtjs/apollo'],
+  modules: ['@nuxtjs/tailwindcss', '@pinia/nuxt'],
   buildModules: ['vite-plugin-vue-type-imports/nuxt'],
-  apollo: {
-    clients: {
-      default: {
-        httpEndpoint: `${process.env.SERVER_URL}/api/graphql`,
-        inMemoryCacheOptions: { possibleTypes },
-        connectToDevTools: isDev,
-      },
-    },
-  },
-  publicRuntimeConfig: {
-    serverUrl: process.env.SERVER_URL,
-  },
+  publicRuntimeConfig: {},
   experimental: {
     reactivityTransform: true,
   },
