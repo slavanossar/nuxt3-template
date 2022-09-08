@@ -1,9 +1,6 @@
 import { defineNuxtConfig } from 'nuxt'
 
 import nuxtClasses from './nuxtClasses'
-import possibleTypes from './possibleTypes.json'
-
-const isDev = process.env.NODE_ENV !== 'production'
 
 export default defineNuxtConfig({
   app: {
