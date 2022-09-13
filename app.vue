@@ -5,8 +5,6 @@
 </template>
 
 <script lang="ts" setup>
-import nuxtClasses from './nuxtClasses'
-
 const title = '{{ SITE_TITLE }}'
 const description = '{{ SITE_DESCRIPTION }}'
 const url = '{{ SITE_URL }}'
