@@ -15,10 +15,10 @@ useHead({
     return titleChunk ? `${titleChunk} | ${title}` : `${title}`
   },
   bodyAttrs: {
-    class: nuxtClasses.body,
+    class: 'min-h-full font-body antialiased',
   },
   htmlAttrs: {
-    class: nuxtClasses.html,
+    class: 'h-full',
     lang: 'en',
   },
   meta: [
