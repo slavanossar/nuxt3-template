@@ -4,9 +4,15 @@ export default defineNuxtConfig({
     pageTransition: { name: 'page', mode: 'out-in' },
   },
   css: [],
-  modules: ['@nuxtjs/tailwindcss', '@pinia/nuxt'],
-  buildModules: ['vite-plugin-vue-type-imports/nuxt'],
-  publicRuntimeConfig: {},
+  modules: [
+    '@nuxtjs/tailwindcss',
+    '@pinia/nuxt',
+    '@vueuse/nuxt',
+    'vite-plugin-vue-type-imports/nuxt',
+  ],
+  runtimeConfig: {
+    public: {},
+  },
   experimental: {
     reactivityTransform: true,
   },
