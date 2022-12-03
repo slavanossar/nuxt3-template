@@ -7,8 +7,8 @@ export default defineNuxtConfig({
   modules: [
     '@nuxtjs/tailwindcss',
     '@pinia/nuxt',
+    '@vue-macros/nuxt',
     '@vueuse/nuxt',
-    'vite-plugin-vue-type-imports/nuxt',
   ],
   runtimeConfig: {
     public: {},
