@@ -1,5 +1,5 @@
 {
-  "name": "nuxt3-payload-template",
+  "name": "nuxt3-template",
   "private": true,
   "engine": {
     "node": "18.x"
