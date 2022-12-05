@@ -1,6 +1,6 @@
 # nuxt3-template
 
-A Nuxt 3 + TypeScript starter template.
+A [Nuxt 3](https://nuxt.com/docs/guide/concepts/auto-imports) + TypeScript starter template.
 
 - [Vue Macros](https://vue-macros.sxzz.moe/guide/getting-started.html)
 - [VueUse](https://vueuse.org/guide/)
