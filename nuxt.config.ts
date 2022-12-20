@@ -1,3 +1,5 @@
+const { SITE_NAME, SITE_URL } = process.env
+
 export default defineNuxtConfig({
   app: {
     layoutTransition: { name: 'layout', mode: 'out-in' },
@@ -13,8 +15,8 @@ export default defineNuxtConfig({
   runtimeConfig: {
     public: {
       site: {
-        name: process.env.SITE_NAME,
-        url: process.env.SITE_URL,
+        name: SITE_NAME,
+        url: SITE_URL,
       },
     },
   },
