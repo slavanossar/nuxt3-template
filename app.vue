@@ -5,9 +5,11 @@
 </template>
 
 <script lang="ts" setup>
-const title = '{{ SITE_TITLE }}'
+const config = useRuntimeConfig()
+
+const title = config.public.site.name
 const description = '{{ SITE_DESCRIPTION }}'
-const url = '{{ SITE_URL }}'
+const url = config.public.site.url
 const themeColour = '#000000'
 
 useHead({

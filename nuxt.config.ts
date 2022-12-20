@@ -11,7 +11,12 @@ export default defineNuxtConfig({
     '@vueuse/nuxt',
   ],
   runtimeConfig: {
-    public: {},
+    public: {
+      site: {
+        name: process.env.SITE_NAME,
+        url: process.env.SITE_URL,
+      },
+    },
   },
   experimental: {
     reactivityTransform: true,
