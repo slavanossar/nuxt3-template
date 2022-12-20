@@ -1229,14 +1229,14 @@
   resolved "https://registry.yarnpkg.com/@vue/shared/-/shared-3.2.45.tgz#a3fffa7489eafff38d984e23d0236e230c818bc2"
   integrity sha512-Ewzq5Yhimg7pSztDV+RH1UDKBzmtqieXQlpTVm2AwraoRL/Rks96mvd8Vgi7Lj+h+TH8dv7mXD3FRZR3TUvbSg==
 
-"@vueuse/core@9.7.0", "@vueuse/core@^9.6.0":
-  version "9.7.0"
-  resolved "https://registry.yarnpkg.com/@vueuse/core/-/core-9.7.0.tgz#5546ce8fbdca7a595671e7c05376c322b69268e6"
-  integrity sha512-/AGY/t7jJPxCyRoVTygNKoroTiCvRaaZIW+yeSlBCnI7QRpQ9cvXNTdNaSl3GvSyFbn83+XwZwEZvI1OpQfeGw==
+"@vueuse/core@9.8.2", "@vueuse/core@^9.6.0":
+  version "9.8.2"
+  resolved "https://registry.yarnpkg.com/@vueuse/core/-/core-9.8.2.tgz#a142281bb33368c74668a180a813c7c8d91f89d8"
+  integrity sha512-aWiCmcYIpPt7xjuqYiceODEMHchDYthrJ4AqI+FXPZrR23PZOqdiktbUVyQl2kGlR3H4i9UJ/uimQrwhz9UouQ==
   dependencies:
     "@types/web-bluetooth" "^0.0.16"
-    "@vueuse/metadata" "9.7.0"
-    "@vueuse/shared" "9.7.0"
+    "@vueuse/metadata" "9.8.2"
+    "@vueuse/shared" "9.8.2"
     vue-demi "*"
 
 "@vueuse/head@^1.0.15":
@@ -1249,26 +1249,26 @@
     "@unhead/ssr" "^1.0.4"
     "@unhead/vue" "^1.0.4"
 
-"@vueuse/metadata@9.7.0":
-  version "9.7.0"
-  resolved "https://registry.yarnpkg.com/@vueuse/metadata/-/metadata-9.7.0.tgz#0aeaaaba52d9cc9aa5b2ad2e129e5f6fbac2c44c"
-  integrity sha512-M7WsAgw28FNtTH0bzsGuHEtJOPJqPpyeHS6PHq+8UesLgNjZ9waMAntiUrgUQlxt09M4i2lH7y9sRi0jkfeXGA==
+"@vueuse/metadata@9.8.2":
+  version "9.8.2"
+  resolved "https://registry.yarnpkg.com/@vueuse/metadata/-/metadata-9.8.2.tgz#864905e351a88165717c66d35d4b59a84bed2ae1"
+  integrity sha512-N4E/BKS+9VsUeD4WLVRU1J2kCOLh+iikBcMtipFcTyL204132vDYHs27zLAVabJYGnhC0dIVGdhg9pbOZiY2TQ==
 
 "@vueuse/nuxt@^9.6.0":
-  version "9.7.0"
-  resolved "https://registry.yarnpkg.com/@vueuse/nuxt/-/nuxt-9.7.0.tgz#e57c95e3c97842b819d23ab919671ca88f93d668"
-  integrity sha512-wXwg3h4AJNLB0EJzB5O7yPyDH3bCNl0dGzBVP1i2pS569TJnnUc6USZ6htbH3XXEflD3Lr0fM/0vkulOxQHHNw==
+  version "9.8.2"
+  resolved "https://registry.yarnpkg.com/@vueuse/nuxt/-/nuxt-9.8.2.tgz#05083a0e9d79a85de10b8f70d3294db397801ef3"
+  integrity sha512-X0pUe/LNRTVNugewwagbzjKkAd/qC6mtkYIeTynTShSkS1RPl44gb6tH3YO1vU201DIhwGNpzM43JOt0FrFyvw==
   dependencies:
     "@nuxt/kit" "^3.0.0"
-    "@vueuse/core" "9.7.0"
-    "@vueuse/metadata" "9.7.0"
+    "@vueuse/core" "9.8.2"
+    "@vueuse/metadata" "9.8.2"
     local-pkg "^0.4.2"
     vue-demi "*"
 
-"@vueuse/shared@9.7.0":
-  version "9.7.0"
-  resolved "https://registry.yarnpkg.com/@vueuse/shared/-/shared-9.7.0.tgz#bca8025dd248dd87e4726e78d46c4d3e523cb0c1"
-  integrity sha512-pwmt1y3TJ2s5KqWmkv9ZKEV59GwuZQZk8XLiU+hGswz0jej318ozbea9E4A/A50ksyM26swSFr7sZ9llNPsZHg==
+"@vueuse/shared@9.8.2":
+  version "9.8.2"
+  resolved "https://registry.yarnpkg.com/@vueuse/shared/-/shared-9.8.2.tgz#fd05866e5626218c9b0758b0422c666676cc4559"
+  integrity sha512-ACjrPQzowd5dnabNJt9EoGVobco9/ENiA5qP53vjiuxndlJYuc/UegwhXC7KdQbPX4F45a50+45K3g1wNqOzmA==
   dependencies:
     vue-demi "*"
 
@@ -4444,9 +4444,9 @@ minimist@^1.2.0, minimist@^1.2.6:
   integrity sha512-bzfL1YUZsP41gmu/qjrEk0Q6i2ix/cVeAhbCbqH9u3zYutS1cLg00qhrD0M2MVdCcx4Sc0UpP2eBWo9rotpq6g==
 
 minipass@^3.0.0:
-  version "3.3.4"
-  resolved "https://registry.yarnpkg.com/minipass/-/minipass-3.3.4.tgz#ca99f95dd77c43c7a76bf51e6d200025eee0ffae"
-  integrity sha512-I9WPbWHCGu8W+6k1ZiGpPu0GkoKBeorkfKNuAFBNS1HNFJvke82sxvI5bzcCNpWPorkOO5QQ+zomzzwRxejXiw==
+  version "3.3.6"
+  resolved "https://registry.yarnpkg.com/minipass/-/minipass-3.3.6.tgz#7bba384db3a1520d18c9c0e5251c3444e95dd94a"
+  integrity sha512-DxiNidxSEK+tHG6zOIklvNOwm3hvCrbUrdtzY74U6HKTJxvIDfOUL5W5P2Ghd3DTkhhKPYGqeNUIh5qcM4YBfw==
   dependencies:
     yallist "^4.0.0"
 
@@ -6524,9 +6524,9 @@ unimport@^1.0.0:
     unplugin "^1.0.0"
 
 unimport@^1.0.1:
-  version "1.0.2"
-  resolved "https://registry.yarnpkg.com/unimport/-/unimport-1.0.2.tgz#3d250dea0a441010f7e710c2031d6e334c7705ef"
-  integrity sha512-DcYkDwl1XMZNmyEKUFzVzHAul0FZcj9m0OM/WRfaAtg6Gw1waYlypYJl6qAg31k57TnNPwGDCAxYPodYC5qomQ==
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/unimport/-/unimport-1.1.0.tgz#3101c6335376cbd9e0b84036a1ca492475d54054"
+  integrity sha512-dSufi3POQWUVAMU6DxXu39U0cWzz5m3FtQBUbgDJTkCpeRfyiYhDg+BOz6UPKfDPtEhkbshV8JoMV3I8i/mQ+A==
   dependencies:
     "@rollup/pluginutils" "^5.0.2"
     escape-string-regexp "^5.0.0"
