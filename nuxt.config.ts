@@ -11,7 +11,9 @@ export default defineNuxtConfig({
     '@pinia/nuxt',
     '@vue-macros/nuxt',
     '@vueuse/nuxt',
+    'nuxt-simple-sitemap',
   ],
+  sitemap: { hostname: SITE_URL },
   runtimeConfig: {
     public: {
       site: {
