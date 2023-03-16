@@ -7,6 +7,7 @@ export default defineNuxtConfig({
   },
   css: [],
   modules: [
+    '@nuxt/devtools',
     '@nuxtjs/tailwindcss',
     '@pinia/nuxt',
     '@vue-macros/nuxt',

@@ -22,6 +22,7 @@
     "*": "prettier -w -u"
   },
   "devDependencies": {
+    "@nuxt/devtools": "^0.2.5",
     "@nuxtjs/eslint-config-typescript": "^10.0.0",
     "@vue-macros/nuxt": "^0.1.2",
     "@vue/eslint-config-prettier": "^7.0.0",
