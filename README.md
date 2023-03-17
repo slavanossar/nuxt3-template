@@ -32,9 +32,11 @@ If you use [`mkcert`](https://github.com/FiloSottile/mkcert) and would like to r
 
 1. Uncomment the `vite` config in `nuxt.config.ts`
 
-2. Set up an `nginx` reverse proxy using the provided `nginx-example.conf`. Change all instances of `example.com` to the hostname you would like to use, and also update the `ssl_certificate` and `ssl_certificate_key` paths. If you change the default `NITRO_PORT` from `3000` also make sure to update the port in the `location / { ... }` block.
+2. Create local certificates using `mkcert`.
 
-3. Update your hosts file
+3. Set up an `nginx` reverse proxy using the provided `nginx-example.conf`. Change all instances of `example.com` to the hostname you would like to use, and also update the `ssl_certificate` and `ssl_certificate_key` paths to point the certificate created in the previous step. If you change the default `NITRO_PORT` from `3000` also make sure to update the port in the `location / { ... }` block.
+
+4. Update your hosts file
 
 ```
 127.0.0.1       example.test
