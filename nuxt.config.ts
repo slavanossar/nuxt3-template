@@ -8,12 +8,16 @@ export default defineNuxtConfig({
   css: [],
   modules: [
     '@nuxt/devtools',
+    '@nuxtjs/robots',
     '@nuxtjs/tailwindcss',
     '@pinia/nuxt',
     '@vue-macros/nuxt',
     '@vueuse/nuxt',
     'nuxt-simple-sitemap',
   ],
+  robots: {
+    configPath: 'robots.js',
+  },
   sitemap: { hostname: SITE_URL },
   runtimeConfig: {
     public: {
