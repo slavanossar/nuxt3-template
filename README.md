@@ -13,6 +13,9 @@ A [Nuxt 3](https://nuxt.com/docs/guide/concepts/auto-imports) + TypeScript start
 # Install packages
 yarn
 
+# Create .env
+cp .env.example .env
+
 # Start Vite dev server
 yarn dev
 
@@ -21,4 +24,19 @@ yarn build
 
 # Start Nitro server
 yarn start
+```
+
+## Local HTTPS
+
+If you use [`mkcert`](https://github.com/FiloSottile/mkcert) and would like to run the Vite dev server using a HTTPS address, there are a few extra setup steps.
+
+1. Uncomment the `vite` config in `nuxt.config.ts`
+
+2. Set up an `nginx` reverse proxy using the provided `nginx-example.conf`. Change all instances of `example.com` to the hostname you would like to use, and also update the `ssl_certificate` and `ssl_certificate_key` paths. If you change the default `NITRO_PORT` from `3000` also make sure to update the port in the `location / { ... }` block.
+
+3. Update your hosts file
+
+```
+127.0.0.1       example.test
+::1             example.test
 ```
