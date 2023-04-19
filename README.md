@@ -11,19 +11,25 @@ A [Nuxt 3](https://nuxt.com/docs/guide/concepts/auto-imports) + TypeScript start
 
 ```bash
 # Install packages
-yarn
+pnpm install
 
 # Create .env
-cp .env.example .env
+pnpm configure-env
 
-# Start Vite dev server
-yarn dev
+# Update packages
+pnpm up
+
+# Start dev server
+pnpm run dev
+
+# Generate static site
+pnpm run generate
 
 # Build for production
-yarn build
+pnpm run build
 
-# Start Nitro server
-yarn start
+# Start server
+pnpm run start
 ```
 
 ## Local HTTPS

@@ -26,6 +26,7 @@
     "@nuxtjs/eslint-config-typescript": "^10.0.0",
     "@vue-macros/nuxt": "^0.1.2",
     "@vue/eslint-config-prettier": "^7.0.0",
+    "configure-env": "^1.0.0",
     "eslint": "^8.19.0",
     "eslint-config-prettier": "^8.5.0",
     "eslint-plugin-nuxt": "^3.2.0",
