@@ -8,23 +8,19 @@ export default defineNuxtConfig({
   css: [],
   modules: [
     '@nuxt/devtools',
-    '@nuxtjs/robots',
     '@nuxtjs/tailwindcss',
     '@pinia/nuxt',
     '@vue-macros/nuxt',
     '@vueuse/nuxt',
+    'nuxt-simple-robots',
     'nuxt-simple-sitemap',
   ],
-  robots: {
-    configPath: 'robots.js',
-  },
-  sitemap: { hostname: SITE_URL },
+  robots: {},
+  sitemap: {},
   runtimeConfig: {
     public: {
-      site: {
-        name: SITE_NAME,
-        url: SITE_URL,
-      },
+      siteName: SITE_NAME,
+      siteUrl: SITE_URL,
     },
   },
   // vite: {
@@ -36,7 +32,4 @@ export default defineNuxtConfig({
   //     },
   //   },
   // },
-  experimental: {
-    reactivityTransform: true,
-  },
 })

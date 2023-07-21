@@ -17,7 +17,7 @@ pnpm install
 pnpm configure-env
 
 # Update packages
-pnpm up
+pnpm up --interactive
 
 # Start dev server
 pnpm run dev
