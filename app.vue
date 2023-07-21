@@ -7,9 +7,9 @@
 <script lang="ts" setup>
 const config = useRuntimeConfig()
 
-const title = config.public.site.name
+const title = config.public.siteName
 const description = '{{ SITE_DESCRIPTION }}'
-const url = config.public.site.url
+const url = config.public.siteUrl
 const themeColour = '#000000'
 
 useHead({
