@@ -10,7 +10,6 @@ export default defineNuxtConfig({
     '@nuxt/devtools',
     '@nuxtjs/tailwindcss',
     '@pinia/nuxt',
-    '@vue-macros/nuxt',
     '@vueuse/nuxt',
     'nuxt-simple-robots',
     'nuxt-simple-sitemap',

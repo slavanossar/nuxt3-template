@@ -24,7 +24,6 @@
   "devDependencies": {
     "@nuxt/devtools": "^0.2.5",
     "@nuxtjs/eslint-config-typescript": "^10.0.0",
-    "@vue-macros/nuxt": "^0.1.2",
     "@vue/eslint-config-prettier": "^7.0.0",
     "configure-env": "^1.0.0",
     "eslint": "^8.45.0",
@@ -43,7 +42,6 @@
     "@vueuse/core": "^9.6.0",
     "@vueuse/nuxt": "^9.6.0",
     "dotenv": "^16.3.1",
-    "express": "^4.18.1",
     "nuxt": "^3.6.5",
     "nuxt-simple-robots": "^3.0.3",
     "nuxt-simple-sitemap": "^3.0.12",
