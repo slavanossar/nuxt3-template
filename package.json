@@ -10,7 +10,8 @@
     "generate": "nuxi generate",
     "start": "node .output/server/index.mjs",
     "lint": "eslint --ext .js,.ts,.vue .",
-    "lint:fix": "eslint --fix --ext .js,.ts,.vue ."
+    "lint:fix": "eslint --fix --ext .js,.ts,.vue .",
+    "configure-env": "configure-env"
   },
   "husky": {
     "hooks": {
