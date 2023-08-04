@@ -14,10 +14,13 @@ A [Nuxt 3](https://nuxt.com/docs/guide/concepts/auto-imports) + TypeScript start
 pnpm install
 
 # Create .env
-pnpm configure-env
+pnpm run configure-env
 
 # Update packages
 pnpm up --interactive
+
+# Update packages (major versions)
+pnpm up --interactive --latest
 
 # Start dev server
 pnpm run dev
