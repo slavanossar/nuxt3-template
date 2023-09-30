@@ -22,13 +22,4 @@ export default defineNuxtConfig({
       siteUrl: SITE_URL,
     },
   },
-  // vite: {
-  //   server: {
-  //     hmr: {
-  //       protocol: 'wss',
-  //       clientPort: 443,
-  //       path: 'hmr/',
-  //     },
-  //   },
-  // },
 })
