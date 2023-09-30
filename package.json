@@ -23,29 +23,29 @@
     "*": "prettier -w -u"
   },
   "devDependencies": {
-    "@nuxt/devtools": "^0.7.4",
-    "@nuxtjs/eslint-config-typescript": "^12.0.0",
+    "@nuxt/devtools": "^0.8.5",
+    "@nuxtjs/eslint-config-typescript": "^12.1.0",
     "@vue/eslint-config-prettier": "^8.0.0",
     "configure-env": "^1.0.0",
-    "eslint": "^8.46.0",
-    "eslint-config-prettier": "^8.10.0",
+    "eslint": "^8.50.0",
+    "eslint-config-prettier": "^9.0.0",
     "eslint-plugin-nuxt": "^4.0.0",
     "eslint-plugin-prettier": "^5.0.0",
     "husky": "^8.0.3",
-    "lint-staged": "^13.2.3",
-    "prettier": "^3.0.1",
-    "prettier-plugin-tailwindcss": "^0.4.1",
-    "typescript": "^5.1.6"
+    "lint-staged": "^14.0.1",
+    "prettier": "^3.0.3",
+    "prettier-plugin-tailwindcss": "^0.5.4",
+    "typescript": "^5.2.2"
   },
   "dependencies": {
     "@nuxtjs/tailwindcss": "^6.8.0",
     "@pinia/nuxt": "^0.4.11",
-    "@vueuse/core": "^10.3.0",
-    "@vueuse/nuxt": "^10.3.0",
+    "@vueuse/core": "^10.4.1",
+    "@vueuse/nuxt": "^10.4.1",
     "dotenv": "^16.3.1",
-    "nuxt": "^3.6.5",
-    "nuxt-simple-robots": "^3.1.0",
-    "nuxt-simple-sitemap": "^3.1.4",
+    "nuxt": "^3.7.4",
+    "nuxt-simple-robots": "^3.1.5",
+    "nuxt-simple-sitemap": "^3.3.5",
     "pinia": "^2.1.6"
   }
 }
