@@ -9,11 +9,10 @@ export default defineNuxtConfig({
   css: [],
   modules: [
     '@nuxt/devtools',
+    '@nuxtjs/seo',
     '@nuxtjs/tailwindcss',
     '@pinia/nuxt',
     '@vueuse/nuxt',
-    'nuxt-simple-robots',
-    'nuxt-simple-sitemap',
   ],
   robots: {},
   sitemap: {},
